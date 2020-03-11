@@ -76,11 +76,11 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                     new AdaptiveSubmitAction
                     {
                         Title = "Videoteca",
-                        Data = new ResponseCardPayload
+                        Data = new AdaptiveOpenUrlAction
                         {
                             MsTeams = new CardAction
                             {
-                                Type = "ActionTypes.OpenUrl",
+                                Type = "OpenUrl",
                                 DisplayText = "Videoteca",
                                 Value = "https://www.stream.com"
                             }
