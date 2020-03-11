@@ -80,12 +80,10 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                         {
                             Title = "Videoteca",
                             Url = "https://www.stream.com",
-                           
                         }
                     }
                 }
             };
-
             return new Attachment
             {
                 ContentType = AdaptiveCard.ContentType,
