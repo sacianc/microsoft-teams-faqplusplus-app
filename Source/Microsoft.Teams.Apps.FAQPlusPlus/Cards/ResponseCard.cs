@@ -79,13 +79,21 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                         Title = "Videoteca",
                         Data = new AdaptiveOpenUrlAction
                         {
-                            Type = OpenUrl,
+                            Type = ActionTypes.OpenUrl,
                             Title = "Videoteca",
                             Url = new Uri("https://www.stream.com/"),
                         }
                     }
                     
                 }
+                Footer = new List<AdaptiveElement>
+                {
+                    new AdaptiveTextBlock
+                    {
+                        Text = 'Ingrese a nuestra videoteca haciendo click <a href="https://www.stream.com">AQUI</a>',
+                        Wrap = true,
+                    }
+                },
             };
             return new Attachment
             {
