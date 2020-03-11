@@ -86,14 +86,6 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                     }
                     
                 }
-                Footer = new List<AdaptiveElement>
-                {
-                    new AdaptiveTextBlock
-                    {
-                        Text = 'Ingrese a nuestra videoteca haciendo click <a href="https://www.stream.com">AQUI</a>',
-                        Wrap = true,
-                    }
-                },
             };
             return new Attachment
             {
