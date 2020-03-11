@@ -72,6 +72,19 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                             UserQuestion = userQuestion,
                             KnowledgeBaseAnswer = answer,
                         }
+                    },
+                    new AdaptiveSubmitAction
+                    {
+                        Title = "Videoteca",
+                        Data = new ResponseCardPayload
+                        {
+                            MsTeams = new CardAction
+                            {
+                                Type = "Action.OpenUrl",
+                                DisplayText = "Videoteca",
+                                url = "https://www.stream.com",
+                            },
+                        }
                     }
                 }
             };
