@@ -80,9 +80,9 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                         {
                             MsTeams = new CardAction
                             {
-                                Type = "Action.OpenUrl",
+                                Type = "OpenUrl",
                                 DisplayText = "Videoteca",
-                                url = "https://www.stream.com",
+                                value = "https://www.stream.com",
                             }
                         }
                     }
