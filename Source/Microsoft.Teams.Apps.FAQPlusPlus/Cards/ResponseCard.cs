@@ -83,7 +83,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                                 Type = "Action.OpenUrl",
                                 DisplayText = "Videoteca",
                                 url = "https://www.stream.com",
-                            },
+                            }
                         }
                     }
                 }
