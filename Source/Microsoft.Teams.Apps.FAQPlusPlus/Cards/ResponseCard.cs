@@ -77,7 +77,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                     new AdaptiveOpenUrlAction
                     {
                            Title = "Videoteca",
-                           Url = new Uri("https://www.stream.com/"),
+                           Url = new Uri("https://www.microsoft.com/"),
                     }
                     
                 }
