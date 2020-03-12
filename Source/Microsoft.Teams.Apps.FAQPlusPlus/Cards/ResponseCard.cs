@@ -81,7 +81,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                         {
                             Type = ActionTypes.OpenUrl,
                             Title = "Videoteca",
-                            Url = new Uri("https://www.stream.com/"),
+                            Url = "https://www.stream.com/",
                         }
                     }
                     
