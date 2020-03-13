@@ -40,17 +40,17 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
         /// <summary>
         /// TakeAtour - text that triggers take a tour action for the user.
         /// </summary>
-        public const string TakeATour = "¿Qué hace este bot?";
+        public const string TakeATour = "¿qué hace este bot?";
 
         /// <summary>
         /// AskAnExpert - text that renders the ask an expert card.
         /// </summary>
-        public const string AskAnExpert = "Preguntarle a un Experto";
+        public const string AskAnExpert = "preguntarle a un experto";
 
         /// <summary>
         /// Feedback - text that renders share feedback card.
         /// </summary>
-        public const string ShareFeedback = "Compartir Opinion";
+        public const string ShareFeedback = "compartir opinion";
 
         private readonly TelemetryClient telemetryClient;
         private readonly IConfigurationProvider configurationProvider;
